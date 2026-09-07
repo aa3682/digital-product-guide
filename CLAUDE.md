@@ -156,3 +156,14 @@ Every term that any page links to /glossary. Add a term here when a new page lin
 - refund policy — refund-policy
 - negative option — negative-option
 - privacy notice — privacy-notice
+- merchant of record — merchant-of-record
+- chargeback — chargeback
+- reserve — reserve
+- commercial message — commercial-message
+- transactional message — transactional-message
+- opt-out — opt-out
+- suppression list — suppression-list
+- substantiation — substantiation
+- endorsement — endorsement
+- material connection — material-connection
+- clear and conspicuous — clear-and-conspicuous
