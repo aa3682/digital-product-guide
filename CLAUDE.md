@@ -125,3 +125,7 @@ Links to glossary terms from any page use the anchor form /glossary#term-id; a p
 
 ## Glossary running list
 Every term that any page links to /glossary. Add a term here when a new page links it. Future prompts reference this list instead of restating it.
+- access product — access-product
+- digital product — digital-product
+- format — format
+- membership — membership
