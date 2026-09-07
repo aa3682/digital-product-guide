@@ -1,47 +1,75 @@
 ---
 title: Payments and Chargebacks
-description: One sentence, plain language, saying what this area covers.
+description: How money moves from a buyer to you, what each party in the chain takes, how a disputed charge is decided, the card data you never hold, and what changes for buyers abroad.
 ---
 
 import { Callout } from 'nextra/components'
 
 # Payments and Chargebacks
 
-One paragraph, no heading, saying what this area covers and why a reader needs it.
+This area covers how money moves from a buyer to you: who stands in between, what each of them takes and when they pay out, what a dispute is and who decides it, the card data you never touch, and what changes when a buyer is outside the United States. The numbers set by a processor, a card network, or a marketplace live on [this year's figures](/tools/this-years-figures#payments-and-chargebacks), not here.
 
 ## Key ideas
 
-### First concept
+### Three ways money reaches you
 
-One or two paragraphs explaining one concept in plain language, defining any term on first use and linking it to the glossary.
+A sale reaches you by one of three routes. On your own [storefront](/glossary#storefront) with a [payment processor](/glossary#payment-processor), you are the [merchant of record](/glossary#merchant-of-record): the business named on the buyer's card statement and legally making the sale. On a hosted storefront, the tool processes the payment on your behalf, and its terms name the merchant of record. On a [marketplace](/glossary#marketplace), the marketplace is the merchant of record, sells to the buyer in its own name, and pays you a share of each sale.
 
-### Second concept
+Who the merchant of record is decides who collects sales tax, who issues refunds, and who answers a dispute. The choice among the routes is made in [Set Up the Shop](/process/set-up-the-shop).
 
-One or two paragraphs on the second concept.
+### What comes out before you are paid
 
-### Third concept
+The [list price](/glossary#list-price) is not what arrives. A processing fee comes out of each transaction, usually a percentage plus a fixed amount. A storefront or marketplace takes its commission. A payout can carry a transfer fee, a sale in another currency carries a conversion charge, and some processors keep their fee when a sale is refunded. Each of these is on [this year's figures](/tools/this-years-figures#payments-and-chargebacks), sourced from the platform's own published page.
 
-One or two paragraphs on the third concept.
+Take Priya's checklist with invented numbers. She lists it at fifty dollars on a storefront. The processor takes two dollars on the sale and the storefront takes five. Her [net](/glossary#net) is forty-three dollars, the number her records carry.
 
-### Fourth concept
+### Payouts, holds, and reserves
 
-One or two paragraphs on the fourth concept; use four to seven H3 subsections in total, and name any yearly-changing figure in plain words with a link to this year's figures rather than printing it.
+A [payout](/glossary#payout) arrives on the processor's own schedule, set in its terms and shown on the figures page. A new account, a sudden jump in volume, or a run of disputes can trigger a hold on a payout or a [reserve](/glossary#reserve), a share of each sale kept for a period before it is released. The processor's terms say when and for how long.
+
+The payout statement, not the sales page, is the record that feeds your books, since it shows fees and refunds as well as sales. What it must reconcile to is in [Taxes and Records](/domains/taxes-and-records).
+
+### What a chargeback is
+
+A [chargeback](/glossary#chargeback) begins when a buyer asks their card issuer, rather than you, to reverse a charge. The issuer credits the buyer at once. The processor takes the amount back from your account and usually adds a dispute fee, which is on the figures page. You may answer with evidence inside a window the card network sets, also on the figures page. The issuer weighs the evidence and decides. Federal law gives cardholders the right to dispute billing errors on a credit card under the Fair Credit Billing Act and on a debit card under the Electronic Fund Transfer Act; everything beyond that right is governed by the card networks' rules.
+
+For a digital product the usual reasons are that the buyer did not receive it or that it was not as described. The evidence that answers them is the delivery and access log, the terms and refund policy as they appeared at checkout, and any correspondence with the buyer. A processor may end an account whose share of disputed sales rises past the level its terms set.
+
+### Refund or chargeback
+
+A refund you issue returns the price to the buyer and costs you, at most, the fee the processor keeps. A chargeback costs the sale, the dispute fee, and a mark against your account with the processor. What the refund policy says, and how it is shown, is covered in [Terms, Refunds, and Privacy](/domains/terms-refunds-and-privacy).
+
+### Card data
+
+Card numbers are collected and held by the processor, not by you. With a hosted checkout, the buyer types the number into a page the processor controls, so the card industry's data-security obligations fall almost entirely on it. Your part is the security of your own account and login. A seller never stores a card number anywhere.
+
+### Buyers outside the United States
+
+A sale to a buyer abroad usually carries a currency conversion charge and a cross-border fee, both on the figures page. Beyond fees, many countries tax digital products sold to their residents and expect the seller, or the marketplace, to register there and collect. A marketplace that is merchant of record usually handles this. On your own storefront it is yours. The figures page does not track foreign tax; the tax authority of the buyer's country is the source.
 
 ## Where it shows up in the process
 
-- [Set Up the Shop](/process/set-up-the-shop): One line on what this area contributes at that step; link every step where it applies.
+- [Set Up the Shop](/process/set-up-the-shop): Choosing a marketplace or a storefront decides who the merchant of record is and what comes out of each sale.
+- [Launch](/process/launch): The first payouts, holds, and any early dispute arrive in the first weeks.
+- [Keep Selling](/process/keep-selling): Reconciling payouts, keeping delivery records, and watching the dispute ratio run for as long as the product sells.
 
 ## Common misconceptions
 
-- One misconception, with a one-line correction.
-- Another such misconception; three to five in total.
+- That the list price is what you receive. Fees and commissions come out before the payout.
+- That a no-refund policy prevents chargebacks. The policy binds the buyer; the dispute right comes from the card issuer.
+- That the seller decides a dispute. The seller submits evidence; the issuer decides.
+- That a marketplace payout is gross income. The payout is net of the marketplace's cut; the gross is what the buyer paid.
+- That card numbers pass through the seller's site. On a hosted checkout they go to the processor's page and never reach you.
 
 ## For practitioners
 
 <Callout type="info">
-Three to six sentences addressed to someone who already sells: the ongoing obligation this area creates, and what to check first if they have been selling without it.
+This area leaves four things running. Payouts are reconciled to sales on a cadence. Delivery and access records are kept at least as long as a dispute can still be opened. The share of disputed sales is watched, since a processor acts on it unannounced. And any foreign tax registrations on an own storefront are kept current. If you have been selling without these, check first whether the evidence a dispute would need is actually being logged, and whether the processor's hold and reserve terms have changed since you signed up.
 </Callout>
 
 ## Go deeper
 
-- [Source title](https://example.com/), Publishing body: one public primary source per line, two to six in total, each fetched and confirmed live before the PR is opened.
+- [15 U.S.C. § 1666, Fair Credit Billing Act, correction of billing errors](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-section1666&num=0&edition=prelim), U.S. Code, Office of the Law Revision Counsel
+- [15 U.S.C. § 1693f, Electronic Fund Transfer Act, error resolution](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-section1693f&num=0&edition=prelim), U.S. Code, Office of the Law Revision Counsel
+- [Understanding your Form 1099-K](https://www.irs.gov/businesses/understanding-your-form-1099-k), Internal Revenue Service
+- [Protecting Personal Information: A Guide for Business](https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business), Federal Trade Commission
