@@ -135,3 +135,11 @@ Every term that any page links to /glossary. Add a term here when a new page lin
 - list price — list-price
 - net — net
 - anchor — anchor
+- storefront — storefront
+- marketplace — marketplace
+- payment processor — payment-processor
+- payout — payout
+- audience — audience
+- launch discount — launch-discount
+- cadence — cadence
+- retire — retire
