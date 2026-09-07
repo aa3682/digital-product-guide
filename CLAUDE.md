@@ -148,3 +148,11 @@ Every term that any page links to /glossary. Add a term here when a new page lin
 - estimated tax — estimated-tax
 - nexus — nexus
 - marketplace facilitator — marketplace-facilitator
+- copyright — copyright
+- work made for hire — work-made-for-hire
+- public domain — public-domain
+- fair use — fair-use
+- terms of sale — terms-of-sale
+- refund policy — refund-policy
+- negative option — negative-option
+- privacy notice — privacy-notice
