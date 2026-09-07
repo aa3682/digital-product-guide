@@ -1,6 +1,6 @@
 # Digital Product Guide
 
-An open guide to launching and selling a digital product on your own. It is an open, public site organized by The Launch Path (six steps) and The Business Side (seven areas), built on Nextra 4.
+An open guide to launching and selling a digital product on your own. It is organized by The Launch Path (six steps) and The Business Side (seven areas), built on Nextra 4.
 
 ## What this is
 
