@@ -129,3 +129,9 @@ Every term that any page links to /glossary. Add a term here when a new page lin
 - digital product — digital-product
 - format — format
 - membership — membership
+- license — license
+- version — version
+- deliverable — deliverable
+- list price — list-price
+- net — net
+- anchor — anchor
