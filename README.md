@@ -1,10 +1,12 @@
-# guide-template
+# Digital Product Guide
 
-Reusable starter for an open, public knowledge site built on Nextra 4 — process-first structure, plain-English section names, one reference page for regulated figures, and a CLAUDE.md that drives content through Claude Code.
+An open guide to launching and selling a digital product on your own. It is organized by The Launch Path (six steps) and The Business Side (seven areas), built on Nextra 4.
 
 ## What this is
 
-A topic-neutral copy of a working guide site with the subject matter removed. It keeps the six-section layout (introduction, process, knowledge areas, tools, glossary, about), one example step page and one example area page as skeletons, an empty yearly-figures page, and the conventions in `CLAUDE.md` that shape every page. Anything specific to a topic is a bracketed all-caps token.
+A plain-English reference for people who make a downloadable or access-based product and sell it themselves: ebooks, workbooks, templates, courses, and memberships. Software, apps, subscription software, and physical goods are out of scope. The Launch Path walks through the work in order, from choosing what to make to keeping it selling. The Business Side covers the rules and ongoing obligations that cut across those steps: how the business is set up, taxes and records, copyright and licensing, terms and refunds and privacy, payments and chargebacks, email and audience rules, and marketing claims and disclosures.
+
+It is written first for working professionals building a first digital product on the side, and second for creators who already sell and want the business side tightened up. The guide assumes U.S. law and U.S. tax rules and says so where state rules differ. Every dollar amount, rate, threshold, deadline, or fee set by law, an agency, or a platform lives on one reference page, with its source and the date it was last checked, and is never repeated on individual pages. No platform, payment processor, marketplace, or brand is named or linked anywhere on the site except on that figures page, and there only as the source of its own fee.
 
 ## Stack
 
@@ -13,34 +15,6 @@ A topic-neutral copy of a working guide site with the subject matter removed. It
 - MDX content in `content/`
 - [Pagefind](https://pagefind.app) search index generated at build time
 - pnpm as the only package manager
-
-## Starting a new guide
-
-Replace every token, then edit every file in the list. A grep for `\[[A-Z ]\+\]` (excluding `node_modules` and `.next`) shows what is left.
-
-Tokens:
-
-- `[TOPIC]` — the subject of the guide as it reads in a sentence.
-- `[PROCESS NAME]` — the name of the step-by-step process the guide is organized around; also the title of the process section.
-- `[AREA LABEL]` — the name of one knowledge area; repeated once per area on the domains landing page and the figures page.
-- `[AUTHOR LINE]` — how the author is described on the About page, without a personal name, employer, credential, or license.
-- `[DISCLAIMER]` — the standard disclaimer that sits in a Callout on each section landing page and as plain prose on the About page.
-
-Files to edit:
-
-- `CLAUDE.md` — the tokens, the step and area names under Structure, the Go deeper sources, and the Glossary running list as pages are written.
-- `README.md` — the title, the opening description, and the repository URL.
-- `package.json` — `name`.
-- `app/layout.jsx` — the site title, description, and `REPO_URL`.
-- `app/globals.css` — the accent hue, if a different one is wanted.
-- `content/_meta.js`, `content/process/_meta.js`, `content/domains/_meta.js`, `content/tools/_meta.js` — sidebar labels and order.
-- `content/introduction/index.mdx`, `content/process/index.mdx`, `content/domains/index.mdx`, `content/tools/index.mdx` — the landing pages; list every step, area, and tool.
-- `content/about/index.mdx` — `[AUTHOR LINE]`, `[DISCLAIMER]`, the corrections URL, and the license links.
-- `content/glossary/index.mdx` — delete the example term when the first real term is added.
-- `content/process/example-step/index.mdx` — copy it into one folder per real step, then delete the example folder and its `_meta.js` entry.
-- `content/domains/example-area/index.mdx` — copy it into one folder per real area, then delete the example folder and its `_meta.js` entry.
-- `content/tools/this-years-figures/index.mdx` — one H2 per knowledge area; rows are added as figures come up.
-- `LICENSE` — the copyright line.
 
 ## Run locally
 
