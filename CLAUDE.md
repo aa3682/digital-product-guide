@@ -143,3 +143,8 @@ Every term that any page links to /glossary. Add a term here when a new page lin
 - launch discount — launch-discount
 - cadence — cadence
 - retire — retire
+- sole proprietor — sole-proprietor
+- entity — entity
+- estimated tax — estimated-tax
+- nexus — nexus
+- marketplace facilitator — marketplace-facilitator
