@@ -26,7 +26,7 @@ Top-level sections, in this sidebar order:
 1. introduction
 2. process — The Launch Path, one folder per step
 3. domains — The Business Side, one folder per area; the reader-facing label is The Business Side and the URL stays /domains
-4. tools — calculators, checklists, worksheets
+4. tools — the This year's figures reference page and one worksheet per Launch Path step
 5. glossary
 6. about
 
@@ -59,7 +59,7 @@ The tools section sidebar order is This year's figures first, then the six works
 
 ## Writing style
 - Plain English, short paragraphs, active voice. Define a term the first time it appears and link it to the glossary.
-- Landing pages and any page outside content/process/ and content/domains/: one H1, a two-sentence summary under it, then H2 sections. End with a "Related" list linking to 2–4 other pages. Pages under those two folders follow the Page templates section instead: the opening paragraph replaces the summary, and the cross-link sections replace the Related list.
+- Landing pages and any page outside content/process/ and content/domains/: one H1, a two-sentence summary under it, then H2 sections. End with a "Related" list linking to 2–4 other pages. Pages under those two folders follow the Page templates section instead: the opening paragraph replaces the summary, and the cross-link sections replace the Related list. Worksheet pages under content/tools/ follow the Worksheet page skeleton in that section instead: the lead paragraph replaces the summary and the Business Side list replaces the Related list. This does not apply to the Tools landing page or to /tools/this-years-figures.
 - Use Nextra callouts sparingly: one "Note" or "Warning" per page at most.
 - Tables for comparisons; bullet lists for steps; prose for explanation.
 
