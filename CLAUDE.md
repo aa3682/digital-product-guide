@@ -97,6 +97,7 @@ Conventions for both:
 - Figures that vary by state: Value reads "Varies by state", Year is blank, and Source links a federal locator page if one exists or otherwise names the state office in plain text ("Your state's licensing board"). Never build a per-state table.
 - Figures fixed by statute that do not change yearly still get a row: Year reads "Set by statute" and Source links the statute or the agency page.
 - Internal links use the site's existing slugs. Check the actual paths under content/ before writing a link.
+- The "Which business areas apply" list on a step page and the "Where it shows up in the process" list on an area page mirror each other exactly: if an area page lists a step, that step page lists the area, and the reverse. Both lists are kept in canonical order, areas in the order of The Business Side and steps in the order of The Launch Path. If a page is added or a bullet changes on one side, the other side changes to match.
 - The Callout is the stock component from nextra/components, the same one the landing pages use. Import it with exactly this line: `import { Callout } from 'nextra/components'`
 - The hard rules and writing style above apply in full to page bodies, headings, and frontmatter, including titles, descriptions, and slugs.
 
