@@ -70,7 +70,7 @@ Step page skeleton:
 5. "What actually happens" — 3–5 short H3 subsections describing the concrete work.
 6. "Questions to ask yourself"
 7. "Common mistakes"
-8. "Which business areas apply" — links to 2–4 area pages, one line each on why it applies at this step.
+8. "Which business areas apply" — links to every area page whose "Where it shows up in the process" list names this step (see the mirror rule under Conventions for both), one line each on why it applies at this step.
 9. "For practitioners" — a Callout, 3–6 sentences, addressed to someone who already sells: what to tighten, migrate, or document at this step rather than build from scratch.
 10. "Next step" — one link to the following step page. The last step links back to the first.
 
@@ -85,7 +85,7 @@ Area page skeleton:
 8. "Go deeper" — 2–6 links, prefer fewer, to public primary sources: federal and state statutes, IRS publications and form instructions, state revenue agency pages, FTC guidance, U.S. Copyright Office circulars, USPTO pages, and a platform's own published fee or terms page for its own fees.
 
 Conventions for both:
-- 700–1,000 words. Word count means body prose only — headings, tables, the Callout title, and Go deeper link titles are excluded.
+- 700–1,000 words. Word count means body prose only — headings, tables, the Callout title, Go deeper link titles, and the two cross-link lists ("Which business areas apply" on step pages and "Where it shows up in the process" on area pages) are excluded.
 - Measure with pnpm wordcount <path>.
 - Second person, plain English. No jargon without a one-line explanation.
 - Headings are plain nouns or short questions. H2 for the numbered sections above, H3 within them.
