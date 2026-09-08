@@ -4,7 +4,9 @@
 //
 // Counts only body prose. Excluded: frontmatter, import lines, headings,
 // tables, JSX tags (the text inside a Callout is counted, the tag is not),
-// and everything under the "Go deeper" heading. Markdown link text is
+// everything under the "Go deeper" heading, and the two cross-link sections
+// ("Which business areas apply" and "Where it shows up in the process",
+// each from its H2 heading up to the next H2). Markdown link text is
 // counted; link targets are not.
 
 import { readFileSync } from 'node:fs';
@@ -17,6 +19,9 @@ function bodyProse(source) {
 
   // The Go deeper list: drop from its heading to the end of the file.
   text = text.replace(/^##\s+Go deeper\b[\s\S]*$/m, '');
+
+  // The two cross-link lists: drop each from its H2 heading up to the next H2.
+  text = text.replace(/^##\s+(?:Which business areas apply|Where it shows up in the process)\b[\s\S]*?(?=^##\s|(?![\s\S]))/gm, '');
 
   const kept = [];
   for (const rawLine of text.split('\n')) {

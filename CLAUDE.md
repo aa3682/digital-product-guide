@@ -70,7 +70,7 @@ Step page skeleton:
 5. "What actually happens" — 3–5 short H3 subsections describing the concrete work.
 6. "Questions to ask yourself"
 7. "Common mistakes"
-8. "Which business areas apply" — links to 2–4 area pages, one line each on why it applies at this step.
+8. "Which business areas apply" — links to every area page whose "Where it shows up in the process" list names this step (see the mirror rule under Conventions for both), one line each on why it applies at this step.
 9. "For practitioners" — a Callout, 3–6 sentences, addressed to someone who already sells: what to tighten, migrate, or document at this step rather than build from scratch.
 10. "Next step" — one link to the following step page. The last step links back to the first.
 
@@ -85,7 +85,7 @@ Area page skeleton:
 8. "Go deeper" — 2–6 links, prefer fewer, to public primary sources: federal and state statutes, IRS publications and form instructions, state revenue agency pages, FTC guidance, U.S. Copyright Office circulars, USPTO pages, and a platform's own published fee or terms page for its own fees.
 
 Conventions for both:
-- 700–1,000 words. Word count means body prose only — headings, tables, the Callout title, and Go deeper link titles are excluded.
+- 700–1,000 words. Word count means body prose only — headings, tables, the Callout title, Go deeper link titles, and the two cross-link lists ("Which business areas apply" on step pages and "Where it shows up in the process" on area pages) are excluded.
 - Measure with pnpm wordcount <path>.
 - Second person, plain English. No jargon without a one-line explanation.
 - Headings are plain nouns or short questions. H2 for the numbered sections above, H3 within them.
@@ -97,6 +97,7 @@ Conventions for both:
 - Figures that vary by state: Value reads "Varies by state", Year is blank, and Source links a federal locator page if one exists or otherwise names the state office in plain text ("Your state's licensing board"). Never build a per-state table.
 - Figures fixed by statute that do not change yearly still get a row: Year reads "Set by statute" and Source links the statute or the agency page.
 - Internal links use the site's existing slugs. Check the actual paths under content/ before writing a link.
+- The "Which business areas apply" list on a step page and the "Where it shows up in the process" list on an area page mirror each other exactly: if an area page lists a step, that step page lists the area, and the reverse. Both lists are kept in canonical order, areas in the order of The Business Side and steps in the order of The Launch Path. If a page is added or a bullet changes on one side, the other side changes to match.
 - The Callout is the stock component from nextra/components, the same one the landing pages use. Import it with exactly this line: `import { Callout } from 'nextra/components'`
 - The hard rules and writing style above apply in full to page bodies, headings, and frontmatter, including titles, descriptions, and slugs.
 
