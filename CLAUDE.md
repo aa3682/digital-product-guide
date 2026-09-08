@@ -49,6 +49,8 @@ The Business Side, seven areas in this order (title — slug):
 
 These names and their order are fixed. Do not rename or reorder them. Operational how-to — file delivery, access, customer support setup — belongs in Set Up the Shop, not in an area. Entity choice, taxes, records, and copyright belong in The Business Side, not in a step. Slugs are lowercase-kebab-case and match the folder name.
 
+The tools section sidebar order is This year's figures first, then the six worksheets in Launch Path order.
+
 ## Stack
 - Nextra 4, nextra-theme-docs, Next.js App Router, MDX in content/
 - pnpm only. Never use npm or yarn.
@@ -104,18 +106,14 @@ Conventions for both:
 - The Callout is the stock component from nextra/components, the same one the landing pages use. Import it with exactly this line: `import { Callout } from 'nextra/components'`
 - The hard rules and writing style above apply in full to page bodies, headings, and frontmatter, including titles, descriptions, and slugs.
 
-Worksheet page (tools):
-- Path: `content/tools/<slug>/index.mdx`, one folder per page.
-- 700–1,000 words of body prose, tables excluded. Measure with pnpm wordcount <path>.
-- Second person, plain English.
-- H2 sections in this order, headings only: "What this measures", "Before you start", first input section, second input section, "The result", "What the number does and does not tell you", "What to do with it", "For practitioners" (Callout), then Related.
-- Input section names are worksheet-specific: name each for the two things the worksheet gathers.
-- Checklists use the same skeleton with the input sections named "Goals to consider" / "Your goals" and "The result" renamed "Your short list".
-- Tables have three columns at most so they render on a phone without horizontal scrolling.
-- No regulated figures. Name the concept and link the matching section of /tools/this-years-figures.
-- "For practitioners" is a Callout and comes last, followed only by the Related list.
-- No disclaimer.
-- Example values in tables and worked examples are round hypothetical numbers.
+Worksheet page (content/tools/<slug>/index.mdx):
+1. H1 = page title.
+2. Lead paragraph, 2–3 sentences: what the worksheet is for and which Launch Path step it belongs to, with a link to that step page.
+3. H2 "How to use it": 2–3 sentences. Print it or copy it into your own notes; every number you write is your own; any number set by law, an agency, or a platform is on /tools/this-years-figures, linked where it comes up.
+4. Body: H2 sections in the order the step page presents the work. Worksheet prompts are numbered lists of questions the reader answers. Checklist items are "- [ ]" task-list items, one action each, starting with a verb. At most one example line per section, using Priya's onboarding checklist, with round hypothetical numbers only.
+5. H2 "Business Side": one bullet per area page whose "Where it shows up in the process" list names this step, in canonical area order. Each bullet is one sentence naming the obligation, linking the area page, and, where a figure is involved, linking the matching /tools/this-years-figures anchor instead of printing the number.
+6. Length 400–900 words. No external links. Internal links only: step pages, area pages, figures-page anchors, glossary anchors.
+Worksheet rules: no platform, processor, marketplace, or brand names; plain categories only. No figure set by law, an agency, or a platform appears on a worksheet page. No interactive components.
 
 ## How to work
 - Do exactly what the prompt asks. Do not add sections, pages, or features that were not requested.
