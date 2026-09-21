@@ -55,7 +55,12 @@ The tools section sidebar order is This year's figures first, then the six works
 - Nextra 4, nextra-theme-docs, Next.js App Router, MDX in content/
 - pnpm only. Never use npm or yarn.
 - Keep the build warning-free.
-- Custom CSS limited to one accent color variable. No custom components unless the owner asks.
+- Custom CSS limited to one accent color variable. No custom components unless the owner asks. Exception: custom CSS is allowed only to fix a measured WCAG 2.2 AA failure in the theme's output. Each such override must cite, in a comment, the success criterion by number and official title and the measured value (for example, a contrast ratio), and be kept as small as possible.
+
+## Tooling
+- impeccable design skill (pbakaus/impeccable), skill version 4.3.1, installed as a project skill at .claude/skills/impeccable/, copied from aa3682/solo-ria-guide at commit 88f4c10. No hooks, no agents. Not configured; configure only on request.
+- Upgrading impeccable is a deliberate change: update this note and re-run the install checks.
+- After any upgrade of the site framework or theme, re-measure focus indicators and every CSS override written under the accessibility exception, because those overrides may depend on the theme's internal class or token names.
 
 ## Writing style
 - Plain English, short paragraphs, active voice. Define a term the first time it appears and link it to the glossary.
