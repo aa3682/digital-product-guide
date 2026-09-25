@@ -1,3 +1,16 @@
 :root {
   --nextra-primary-hue: 212deg;
 }
+
+/* WCAG 2.2 AA 1.4.11 Non-text Contrast. Light-theme focus ring measured 1.40:1 on #fafafa (sidebar 1.31:1, active item 1.44:1 on #e6f2fe); primary-700 raises it above 3:1, including through the sidebar's edge fade. */
+html.light .x\:nextra-focus,
+html.light .x\:focus-visible\:nextra-focus:focus-visible {
+  --tw-ring-color: var(--x-color-primary-700);
+}
+
+/* WCAG 2.2 AA 2.4.7 Focus Visible and 2.4.3 Focus Order. At 390px with the menu closed, 28 Tab stops landed in the off-screen drawer with 0px of the focused element in the viewport. */
+body:not(:has(.nextra-hamburger svg.open)) .nextra-mobile-nav,
+body:not(:has(.nextra-hamburger svg.open)) .nextra-mobile-nav * {
+  visibility: hidden;
+  transition: none;
+}
