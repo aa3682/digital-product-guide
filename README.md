@@ -18,7 +18,7 @@ It is written first for working professionals building a first digital product o
 
 ## Run locally
 
-Requires Node.js 20+ and [pnpm](https://pnpm.io).
+Requires Node.js 20.9 or later and [pnpm](https://pnpm.io).
 
 ```sh
 pnpm install
