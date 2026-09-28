@@ -38,6 +38,8 @@ pnpm start
 
 `pnpm wordcount <path>` counts the body prose of a content page, following the word-count rules in `CLAUDE.md`.
 
+`pnpm linkcheck` checks every internal link and anchor under `content/` and exits with an error if any is broken. External links are not checked.
+
 ## License
 
 The prose in `content/` is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The code is licensed under MIT (see `LICENSE`).

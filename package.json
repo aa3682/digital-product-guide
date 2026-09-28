@@ -11,7 +11,8 @@
     "build": "next build",
     "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind",
     "start": "next start",
-    "wordcount": "node scripts/wordcount.mjs"
+    "wordcount": "node scripts/wordcount.mjs",
+    "linkcheck": "node scripts/linkcheck.mjs"
   },
   "dependencies": {
     "next": "^16.3.4",
