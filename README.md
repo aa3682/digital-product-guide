@@ -10,7 +10,8 @@ It is written first for working professionals building a first digital product o
 
 ## Stack
 
-- [Nextra](https://nextra.site) 4 with `nextra-theme-docs`
+- [Nextra](https://nextra.site) 4 with `nextra-theme-docs`, restyled with a slate theme (dark only) in `app/globals.css`
+- [Outfit](https://github.com/Outfitio/Outfit-Fonts), self-hosted from `fonts/` with `next/font/local`
 - Next.js App Router
 - MDX content in `content/`
 - [Pagefind](https://pagefind.app) search index generated at build time
@@ -42,4 +43,4 @@ pnpm start
 
 ## License
 
-The prose in `content/` is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The code is licensed under MIT (see `LICENSE`).
+The prose in `content/` is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The code is licensed under MIT (see `LICENSE`). The Outfit font in `fonts/` is licensed under the SIL Open Font License 1.1 (see `fonts/OFL.txt`).

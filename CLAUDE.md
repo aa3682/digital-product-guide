@@ -1,7 +1,7 @@
 # Digital Product Guide — repo instructions
 
 ## What this is
-An open, public reference site on launching and selling a digital product on your own, built as a Nextra 4 docs site. Visual reference only: https://www.promptingguide.ai/ — match its look using the stock nextra-theme-docs; never copy its content or components.
+An open, public reference site on launching and selling a digital product on your own, built as a Nextra 4 docs site. Visual reference: https://diy-wealth-framework.vercel.app — the slate theme is ported from it; never copy its content.
 
 Audience: first, working professionals building a first digital product on the side; second, creators who already sell and want the business side tightened up. Write for the first audience. The 'For practitioners' callout speaks to the second.
 
@@ -15,7 +15,7 @@ Audience: first, working professionals building a first digital product on the s
    This guide is general education for people building and selling a digital product on their own. It is not legal, tax, accounting, or business advice for your situation, and reading it does not create a professional relationship. It assumes U.S. law and U.S. tax rules; see the introduction for what that means. Any dollar amount, rate, threshold, or fee set by law, an agency, or a platform is kept on a single reference page with its source and the date it was last checked, and is not repeated on individual pages. Check that page and the original source before you act on a number.
 5. Do not invent statistics, thresholds, limits, or rates. If a number is year-specific, state the year and cite the source. If unsure, write "[VERIFY]" inline and list it in the report. On knowledge-area pages the figures rule in the area template takes precedence: any figure set by law, regulation, an agency, or a platform's fee schedule goes on /tools/this-years-figures, not on the page.
 6. No personal data, no real client examples. Worked examples use obviously fictional people.
-7. Custom CSS is limited to two uses: one accent color variable, and fixes for a measured WCAG 2.2 AA failure in the theme's output. Each accessibility override must cite, in a comment, the success criterion by number and official title and the measured value (for example, a contrast ratio), and be kept as small as possible.
+7. Slate theme, dark only. The site uses the slate theme defined in app/globals.css, with its accent, page colour and forced dark mode set through documented Nextra props in app/layout.jsx. There is no light theme and no theme switch. Custom CSS is limited to that theme plus WCAG 2.2 AA fixes; each fix cites its SC number and measured ratio in a comment and is kept as small as possible. No custom components unless the owner asks.
 
 ## Attribution and license
 - The guide is published under a project name, not a personal name. The site names no personal name, employer, credentials, or licenses anywhere, on pages or in metadata. Its author is described only by the author line.
