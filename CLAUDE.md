@@ -57,6 +57,7 @@ The tools section sidebar order is This year's figures first, then the six works
 - pnpm only. Never use npm or yarn.
 - Keep the build warning-free.
 - Custom CSS: see Hard rules, rule 7.
+- After a Nextra upgrade or any colour change, run `pnpm theme-audit` against `pnpm start` and fix anything it reports before opening the PR. It checks for dark mode, no theme switch, no neutral greys, text contrast and focus rings on every sidebar page.
 - No custom components unless the owner asks.
 
 ## Tooling
