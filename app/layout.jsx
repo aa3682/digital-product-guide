@@ -38,7 +38,7 @@ export default async function RootLayout({ children }) {
       />
       <body>
         <Layout
-          navbar={<Navbar logo={<b>Digital Product Guide</b>} projectLink={REPO_URL} />}
+          navbar={<Navbar logo={<b>AlignFlow · Digital Product Guide</b>} projectLink={REPO_URL} />}
           footer={
             <Footer>
               <div>
